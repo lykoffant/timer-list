@@ -6,6 +6,12 @@
   ],
   "plugins": ["stylelint-order"],
   "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["apply", "tailwind", "layer"]
+      }
+    ],
     "no-empty-source": null,
     "declaration-empty-line-before": null,
     "no-missing-end-of-source-newline": null,
