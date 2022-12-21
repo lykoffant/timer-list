@@ -1,5 +1,5 @@
 {
-  "name": "timer-list-app",
+  "name": "timer-list",
   "version": "0.1.0",
   "private": true,
   "description": "A web application for creating a list of timers",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lykoffant/timer-list-app.git"
+    "url": "git+https://github.com/lykoffant/timer-list.git"
   },
   "keywords": [
     "react",
@@ -27,7 +27,7 @@
   ],
   "author": "Anton Lykov",
   "bugs": {
-    "url": "https://github.com/lykoffant/timer-list-app/issues"
+    "url": "https://github.com/lykoffant/timer-list/issues"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

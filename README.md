@@ -1,4 +1,4 @@
-# Timer List App
+# Timer List
 
 A web application for creating a list of timers.
 
