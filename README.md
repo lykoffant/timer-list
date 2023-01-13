@@ -49,11 +49,11 @@ Runs code linting using ESLint and Prettier.
 
 Fixes the code using ESLint and Prettier.
 
-### `npm run lint:css`
+### `npm run lint:style`
 
 Runs code linting using Stylelint.
 
-### `npm run lint:css:fix`
+### `npm run lint:style:fix`
 
 Fixes the code using Stylelint.
 
