@@ -7,7 +7,7 @@
   },
 
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.scss": "postcss"
   },
 
   "cSpell.language": "en"

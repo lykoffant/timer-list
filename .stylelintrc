@@ -1,17 +1,13 @@
 {
   "extends": [
     "stylelint-config-standard-scss",
+    "stylelint-config-tailwindcss/scss",
     "stylelint-config-clean-order",
     "stylelint-config-prettier"
   ],
-  "plugins": ["stylelint-order"],
+  "plugins": ["stylelint-order", "stylelint-prettier"],
   "rules": {
-    "at-rule-no-unknown": [
-      true,
-      {
-        "ignoreAtRules": ["apply", "tailwind", "layer"]
-      }
-    ],
+    "prettier/prettier": true,
     "no-empty-source": null,
     "declaration-empty-line-before": null,
     "no-missing-end-of-source-newline": null,
