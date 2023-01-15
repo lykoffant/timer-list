@@ -1,0 +1,23 @@
+.parent {
+  @apply flex flex-nowrap rounded-lg bg-white p-4 shadow-md;
+
+  .input {
+    @apply mr-2 min-w-0 flex-grow border-b-2 border-gray-300 text-2xl outline-none;
+
+    &:focus {
+      @apply border-green-400;
+    }
+  }
+
+  .button {
+    @apply rounded bg-green-400 p-1;
+
+    &:disabled {
+      @apply bg-gray-300;
+    }
+
+    .icon {
+      @apply h-8 w-8 text-white;
+    }
+  }
+}

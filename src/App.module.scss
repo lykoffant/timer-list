@@ -1,3 +1,19 @@
 .parent {
-  @apply p-4 text-3xl font-bold;
+  @apply h-screen bg-gray-100;
+
+  .container {
+    @apply mx-auto flex h-full max-w-3xl flex-col px-4;
+
+    .title {
+      @apply my-6 text-center text-3xl font-bold;
+    }
+
+    .form {
+      @apply mb-6;
+    }
+
+    .list {
+      @apply flex-grow;
+    }
+  }
 }

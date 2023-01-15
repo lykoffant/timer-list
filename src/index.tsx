@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import './index.scss';
 import App from './App';
+import { TimersProvider } from './providers/TimersProvider';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -10,7 +11,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <TimersProvider>
+      <App />
+    </TimersProvider>
   </React.StrictMode>,
 );
 
