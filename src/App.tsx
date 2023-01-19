@@ -1,3 +1,5 @@
+import GithubCorner from 'react-github-corner';
+
 import styles from './App.module.scss';
 import { AddTimerForm, TimerList } from './components';
 
@@ -9,6 +11,7 @@ function App() {
         <AddTimerForm className={styles.form} />
         <TimerList className={styles.list} />
       </div>
+      <GithubCorner href='https://github.com/lykoffant/timer-list' size={60} />
     </div>
   );
 }
