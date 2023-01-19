@@ -10,5 +10,7 @@
     "*.scss": "postcss"
   },
 
-  "cSpell.language": "en"
+  "cSpell.language": "en",
+
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
