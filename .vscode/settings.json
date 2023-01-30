@@ -6,9 +6,7 @@
     "source.fixAll.stylelint": true
   },
 
-  "files.associations": {
-    "*.scss": "postcss"
-  },
+  "scss.validate": false,
 
   "cSpell.language": "en",
 
