@@ -1,9 +1,27 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { ITimer } from '../interfaces/timer.interface';
 
-function useTimers(initialTimers: ITimer[]) {
-  const [timers, setTimers] = useState<ITimer[]>(initialTimers);
+function getInitialTimers(key: string): ITimer[] {
+  const countersFromLocalStorage = localStorage.getItem(key);
+
+  if (countersFromLocalStorage) {
+    return JSON.parse(countersFromLocalStorage) as ITimer[];
+  }
+
+  const initialCounters: ITimer[] = [];
+  localStorage.setItem(key, JSON.stringify(initialCounters));
+  return initialCounters;
+}
+
+function useTimers() {
+  const timersKey = 'timers';
+  const [timers, setTimers] = useState<ITimer[]>(getInitialTimers(timersKey));
+
+  useEffect(
+    () => localStorage.setItem(timersKey, JSON.stringify(timers)),
+    [timers],
+  );
 
   const addTimer = (name: ITimer['name']) => {
     const timer = {
