@@ -27,7 +27,7 @@ interface ITimersProviderProps {
 }
 
 export function TimersProvider({ children }: ITimersProviderProps) {
-  const value = useTimers([]);
+  const value = useTimers();
 
   return (
     <TimersContext.Provider value={value}>{children}</TimersContext.Provider>
