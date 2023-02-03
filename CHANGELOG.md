@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/lykoffant/timer-list/compare/v1.0.0...v1.1.0) (2023-02-03)
+
+
+### Features
+
+* sync localStorage and the state of timers ([8e54f18](https://github.com/lykoffant/timer-list/commit/8e54f18bc8528fb9fedfc642be61f6905cdbc0a9))
+
 ## 1.0.0 (2023-01-19)
 
 
