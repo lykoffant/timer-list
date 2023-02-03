@@ -18,10 +18,16 @@ function useTimers() {
   const timersKey = 'timers';
   const [timers, setTimers] = useState<ITimer[]>(getInitialTimers(timersKey));
 
-  useEffect(
-    () => localStorage.setItem(timersKey, JSON.stringify(timers)),
-    [timers],
-  );
+  window.addEventListener('beforeunload', () => {
+    localStorage.setItem(
+      timersKey,
+      JSON.stringify(timers.map((timer) => ({ ...timer, intervalId: null }))),
+    );
+  });
+
+  useEffect(() => {
+    localStorage.setItem(timersKey, JSON.stringify(timers));
+  }, [timers]);
 
   const addTimer = (name: ITimer['name']) => {
     const timer = {
