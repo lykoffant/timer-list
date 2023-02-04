@@ -81,7 +81,7 @@
     ]
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "npm run lint:es",
-    "*.scss": "npm run lint:style"
+    "*.{js,jsx,ts,tsx}": "eslint --fix",
+    "*.scss": "stylelint --fix"
   }
 }
