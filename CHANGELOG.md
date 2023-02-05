@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/lykoffant/timer-list/compare/v1.1.0...v1.1.1) (2023-02-05)
+
+
+### Bug Fixes
+
+* add a favicon ([9f0f4e9](https://github.com/lykoffant/timer-list/commit/9f0f4e9b959107ffc41f6a29fcdb1345f67e90cc))
+
 ## [1.1.0](https://github.com/lykoffant/timer-list/compare/v1.0.0...v1.1.0) (2023-02-03)
 
 
