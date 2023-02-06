@@ -4,6 +4,11 @@ A web application for creating a list of timers.
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white&color=20232A)](https://timer-list-lykoffant.vercel.app/)
+[![CodeSandbox](https://img.shields.io/badge/Codesandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB&color=20232A)](https://codesandbox.io/p/github/lykoffant/timer-list/main?file=%2FREADME.md&workspace=%257B%2522activeFileId%2522%253A%2522cldscq5t400068sgs1qch20py%2522%252C%2522openFiles%2522%253A%255B%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522spaces%2522%253A%257B%2522cldscq8fm00r13s6j65vbvarj%2522%253A%257B%2522key%2522%253A%2522cldscq8fm00r13s6j65vbvarj%2522%252C%2522name%2522%253A%2522Default%2522%252C%2522devtools%2522%253A%255B%257B%2522type%2522%253A%2522PREVIEW%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A3000%252C%2522key%2522%253A%2522cldscqw3700yx3s6jeui5za2f%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D%257D%252C%2522currentSpace%2522%253A%2522cldscq8fm00r13s6j65vbvarj%2522%252C%2522spacesOrder%2522%253A%255B%2522cldscq8fm00r13s6j65vbvarj%2522%255D%252C%2522hideCodeEditor%2522%253Afalse%257D)
+
 ## Developing
 
 Once you have cloned or downloaded the project and installed the dependencies with `npm install` , start a development server:
