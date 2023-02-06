@@ -4,27 +4,11 @@ A web application for creating a list of timers.
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Getting Started
+## Developing
 
-You can run the project locally.
-
-### Prerequisites
-
-To run the project, you must have locally installed [Node.js](https://nodejs.org/) (the latest LTS version is recommended).
-
-### Running the project locally
+Once you have cloned or downloaded the project and installed the dependencies with `npm install` , start a development server:
 
 ```bash
-# Clone this repository
-git clone https://github.com/lykoffant/timer-list.git
-
-# Go to the project directory
-cd timer-list
-
-# Install dependencies
-npm install
-
-# Run the app in the development mode
 npm start
 ```
 
